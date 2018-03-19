@@ -1,0 +1,82 @@
+body{
+  width: 100%;
+  background-image: url(fon.jpg);
+}
+.open{
+ 
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+}
+#modal{
+	background-image: url(fon2.jpg);
+	color: black;
+	padding: 25px 15px 15px;
+	position: absolute;
+	top: 70px;
+	left: 40%;
+  display: none;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.close{
+ 	position: absolute; 
+	right: 10px; 
+	top: 2px;
+	padding: 3px;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+.close:hover{
+	background-color: red;
+}
+.input-container{
+  display: block;
+  justify-content: center;
+  color: white;
+}
+.e-mail_container{
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 30px;
+  
+}
+.e-mail{
+  border: 2px solid black;
+  padding: 0 5px 0 5px;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
+.password_container{
+  margin-top: 50px;
+  margin-left: 34px;
+  font-size: 30px;
+}
+.password{
+  border: 2px solid black;
+  padding: 0 5px 0 5px;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
+.ok{
+  position: absolute;
+  left: 115px;
+  top: 250px;
+  width: 100px;
+  border: 2px solid black;
+  
+}
+.ok:hover{
+  background-color: black;
+  color: white;
+}
