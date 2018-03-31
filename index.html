@@ -7,19 +7,22 @@
   <script src='index.js'></script> 
 </head>
 <body>
-  <button class="open">Открыть</button>
+   <button class="open">Открыть</button>
  <div class='home'>
 	<div id="modal">
     <button class="close" >✕</button>
     	<div class='input-container'>
-    	 <div class='e-mail_container'> e-mail:   <input type="text" class='e-mail'>
+    	 <div class='e-mail_container'> e-mail:   
+    	 <input type="text" class='e-mail' id='e-mail'>
     	 </div>
     	 <div class='password_container'>pass:  
-    	  <input type="password" class='password'>
+    	  <input type="password" class='password' id='password'>
     	 </div>
     	</div>
     <div class='ok-container'><a href='main.html'>
-      <button class='ok'>OK</button></a></div>
+      <button onclick='exe()' class='ok'>OK</button></a>
+      <p id='tx'></p>
+      <p id='txV'></p></div>
 	</div>
 	</div>
 	 <div></div>
