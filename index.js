@@ -22,7 +22,28 @@
 	  document.getElementById('modal')
 	  .style.display = 'block'
   }
+	
+  function exe(){
+    
+   var x = document.getElementById('e-mail').value;
+   var z = document.getElementById('password').value;
   
+    if (x == 'e-mail'){
+      document.getElementById('tx').innerHTML = x;
+      document.location.href = 'main.html';
+      if( z == 'password'){
+      document.getElementById('txV').innerHTML = z;
+      document.location.href = 'main.html';
+      }
+    }
+    
+    else{
+      document.location.href = 'index.html';
+      document.getElementById('tx').innerHTML='orevuar!';
+    }
+  }
+  
+ 
   
   })();
 
